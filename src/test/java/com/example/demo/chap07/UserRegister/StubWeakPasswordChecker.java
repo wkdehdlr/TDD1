@@ -2,7 +2,7 @@ package com.example.demo.chap07.UserRegister;
 
 public class StubWeakPasswordChecker implements WeakPasswordChecker {
 
-    private boolean weak;
+    private boolean weak = false;
 
     @Override
     public void setWeak(boolean weak) {
